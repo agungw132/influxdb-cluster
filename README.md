@@ -2,7 +2,7 @@
 
 Proof-of-concept an influxdb cluster to accommodate scalability and high availability feature
 
-HA-proxy <=> influxdb-cluster
+HA-proxy+Load Balancer <=> influxdb-cluster
 
 Trial:
 1. High availability: Access the data when members of the cluster down
